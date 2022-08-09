@@ -11,7 +11,7 @@ module.exports = {
 	},
 	parserOptions: {
 		ecmaVersion: "latest",
-		sourceType: "commonjs",
+		sourceType: "module",
 	},
 	rules: {
 		"no-restricted-globals": ["error", "event", "fdescribe"],
