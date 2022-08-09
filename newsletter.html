@@ -34,15 +34,15 @@
 
 <body class="bg-azul-claro font-body flex justify-center items-center h-screen">
 
-	<main class="flex flex-col lg:flex-row w-5/6 px-6 justify-center items-center drop-shadow-2xl">
+	<main class="flex px-6 drop-shadow-2xl lg:w-3/4">
 
-		<section class="bg-azul-escuro w-screen hidden lg:block">
-			<img class="bg-white m-auto items-center " src=" image/icone-mergulhador.svg" alt="icone de mergulhador">
+		<section class="bg-azul-escuro hidden w-1/2 rounded-2xl p-6 lg:block lg:rounded-r-none ">
+			<img class="bg-azul-escuro p-4 m-auto" src=" image/icone-mergulhador.svg" alt="icone de mergulhador">
 		</section>
 
-		<section class="bg-white p-10 gap-6 mx-auto items-center justify-center rounded-2xl">
+		<section class="bg-white p-10 gap-6 flex flex-col justify-center rounded-2xl lg:rounded-l-none lg:w-1/2">
 
-			<div class="">
+			<div class="hidden">
 				<svg class="" width=" 35" height="20" viewBox="0 0 44 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
 						d="M41.1738 0.994633C40.8556 1.10918 40.6199 1.34129 40.4506 1.70905C40.3201 1.99542 40.2881 2.17026 40.3041 2.53199C40.3178 2.86056 40.3659 3.0776 40.4734 3.28861C40.5444 3.42728 41.7665 5.17565 41.9221 5.36254C41.9748 5.42584 42.0984 5.52834 42.1945 5.58561C42.3661 5.69413 42.373 5.69714 42.6545 5.69714C42.9291 5.69714 42.9474 5.69413 43.1237 5.59465C43.3663 5.45599 43.5722 5.19373 43.6912 4.86818C43.8034 4.56673 43.8285 4.34366 43.7874 4.00303C43.753 3.69255 43.7004 3.52374 43.5814 3.31574C43.4784 3.13789 42.4096 1.60958 42.2242 1.37445C41.9519 1.03081 41.5171 0.874056 41.1738 0.994633Z" />
@@ -65,7 +65,7 @@
 				<p class="text-xl mb-2 text-gray-700">Mergulhe em uma plataforma que respira tecnologia!</p>
 			</div>
 
-			<form class="mx-auto flex flex-col justify-center">
+			<form class="">
 				<label class="text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
 				<input
 					class="text-sm text-center font-bold w-full rounded-lg  mb-4 py-4 shadow-lg focus:outline-none hover:border-azul-escuro hover:ring-2 hover:ring-azul-escuro focus:ring-1 focus:border-azul-escuro placeholder:text-center placolder:text-xs"
