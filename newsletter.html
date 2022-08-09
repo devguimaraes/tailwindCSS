@@ -34,13 +34,13 @@
 
 <body class="bg-azul-claro font-body flex justify-center items-center h-screen">
 
-	<main class="flex flex-col lg:flex-row w-5/6 px-6 justify-center items-center">
+	<main class="flex flex-col lg:flex-row w-5/6 px-6 justify-center items-center drop-shadow-2xl">
 
 		<section class="bg-azul-escuro w-screen hidden lg:block">
 			<img class="bg-white m-auto items-center " src=" image/icone-mergulhador.svg" alt="icone de mergulhador">
 		</section>
 
-		<section class="bg-white p-10 gap-6 mx-auto items-center justify-center">
+		<section class="bg-white p-10 gap-6 mx-auto items-center justify-center rounded-2xl">
 
 			<div class="">
 				<svg class="" width=" 35" height="20" viewBox="0 0 44 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,9 +67,11 @@
 
 			<form class="mx-auto flex flex-col justify-center">
 				<label class="text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
-				<input class="text-sm font-bold w-full rounded-xl mb-4 py-2 placeholder:text-center" id="email" type="email"
-					placeholder="Digite seu endereço de email">
-				<button class="w-full py-2 text-white bg-azul-escuro hover:bg-azul-hover rounded-xl"
+				<input
+					class="text-sm text-center font-bold w-full rounded-lg  mb-4 py-4 shadow-lg focus:outline-none hover:border-azul-escuro hover:ring-2 hover:ring-azul-escuro focus:ring-1 focus:border-azul-escuro placeholder:text-center placolder:text-xs"
+					id="email" type="email" placeholder="Digite seu endereço de email">
+				<button
+					class="w-full shadow-2xl py-4 text-white bg-azul-escuro duration-150 translate-x-2 hover:bg-azul-hover rounded-2xl "
 					type="button">Inscreva-se</button>
 			</form>
 		</section>
